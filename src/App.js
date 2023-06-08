@@ -1,18 +1,29 @@
 import './App.css';
-import logo from './static/img/intrepd_logo.png'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Routes,
+  Route,
+  Link  
+} from "react-router-dom";
+import Home from './components/Home';
+import Navbar from './components/Navbar';
+import About from './components/About';
+
+
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="logo" alt="Intrepd logo" />
+    <>
        
-       <div className="text">
-        <p>intrepd.au</p>
-        <p><i class="fa fa-phone"></i> <a href="tel:+61424022239"> +61 424 022 239</a></p>
-        </div>
-       
-      </header>
-    </div>
+    
+    <Router>
+    <Routes>     
+      <Route exact path='/' element= {[<Navbar/>,<Home/>]}/>  
+      <Route exact path='/about' element= {[<Navbar/>,<About/>]}/>     
+     </Routes>
+    </Router>
+    </>
   );
 }
 
