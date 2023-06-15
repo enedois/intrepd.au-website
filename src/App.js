@@ -9,6 +9,7 @@ import {
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import About from './components/About';
+import Contact from './components/Contact';
 
 
 
@@ -20,7 +21,8 @@ function App() {
     <Router>
     <Routes>     
       <Route exact path='/' element= {[<Navbar/>,<Home/>]}/>  
-      <Route exact path='/about' element= {[<Navbar/>,<About/>]}/>     
+      <Route exact path='/about' element= {[<Navbar/>,<About/>]}/>
+      <Route exact path='/contact' element= {[<Navbar/>, <Contact/>]}/>        
      </Routes>
     </Router>
     </>

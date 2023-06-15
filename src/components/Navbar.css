@@ -1,5 +1,4 @@
-.navbar{
-    /* border: 1px solid red; */
-    background-color: #12e9ac;;
-    height: 8vh;
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }
