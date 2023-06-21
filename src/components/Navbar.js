@@ -22,11 +22,12 @@ const Navbar = () => {
 
             <div id="navbarBasicExample" class="navbar-menu">
                 <div class="navbar-start">
-                    <a class="navbar-item"><Link to='/'>Home</Link></a>
-
-
-                    <a class="navbar-item"><Link to='/about'>About</Link></a>
-
+                <Link to='/' class="navbar-item">
+                    Home
+                    </Link>
+                    <Link to='/about' class="navbar-item">
+                    About
+                    </Link>
                     <div class="navbar-item has-dropdown is-hoverable">
                         <a class="navbar-link">
                             Services
@@ -53,9 +54,11 @@ const Navbar = () => {
                 <div class="navbar-end">
                     <div class="navbar-item">
                         <div class="buttons">
-                            <a class="button is-primary">
-                                <strong><Link to='/contact'>Contact</Link></strong>
-                            </a>
+                        <Link to='/contact' class="button is-primary">
+                            
+                                <strong>Contact</strong>
+                            
+                            </Link>
 
                         </div>
                     </div>
