@@ -51,14 +51,14 @@ const Contact = () => {
                             <div class="field">
                                 <label class="label">Name</label>
                                 <div class="control">
-                                    <input name="user_name" required class="input" type="text" placeholder="Text input" onChange={(e) => setName(e.target.value)} />
+                                    <input name="user_name" required class="input" type="text" placeholder="Your name" onChange={(e) => setName(e.target.value)} />
                                 </div>
                             </div>
 
                             <div class="field">
                                 <label class="label">Email</label>
                                 <div class="control">
-                                    <input required name="user_email" class="input" type="email" placeholder="e.g. alexsmith@gmail.com" onChange={(e) => setEmail(e.target.value)} />
+                                    <input required name="user_email" class="input" type="email" placeholder="e.g. email@domain.com" onChange={(e) => setEmail(e.target.value)} />
                                 </div>
                             </div>
                             <div class="field">
@@ -75,7 +75,7 @@ const Contact = () => {
                             <div class="field">
                                 <label class="label">Message</label>
                                 <div class="control">
-                                    <textarea name="message" class="textarea" placeholder="Textarea"></textarea>
+                                    <textarea name="message" class="textarea" placeholder="Your message"></textarea>
                                 </div>
                             </div>
 

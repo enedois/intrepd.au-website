@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <nav class="navbar" role="navigation" aria-label="main navigation">
+        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
                 <a class="navbar-item">
                 <Link to='/'>
@@ -23,30 +23,33 @@ const Navbar = () => {
             <div id="navbarBasicExample" class="navbar-menu">
                 <div class="navbar-start">
                 <Link to='/' class="navbar-item">
-                    Home
+                    home
                     </Link>
                     <Link to='/about' class="navbar-item">
-                    About
+                    about
                     </Link>
                     <div class="navbar-item has-dropdown is-hoverable">
                         <a class="navbar-link">
-                            Services
+                            services
                         </a>
 
                         <div class="navbar-dropdown">
                             <a class="navbar-item">
-                                Website Creation
+                                web development
                             </a>
                             <a class="navbar-item">
-                                Jobs
+                                analytics
                             </a>
                             <a class="navbar-item">
+                                dataviz
+                            </a>
+                            {/* <a class="navbar-item">
                                 Contact
-                            </a>
-                            <hr class="navbar-divider" />
+                            </a> */}
+                            {/* <hr class="navbar-divider" />
                             <a class="navbar-item">
                                 Report an issue
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>
@@ -56,7 +59,7 @@ const Navbar = () => {
                         <div class="buttons">
                         <Link to='/contact' class="button is-primary">
                             
-                                <strong>Contact</strong>
+                                <strong>contact</strong>
                             
                             </Link>
 
