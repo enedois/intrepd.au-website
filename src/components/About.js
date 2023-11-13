@@ -1,7 +1,9 @@
 import React from 'react'
 import 'bulma/css/bulma.min.css';
 import renan from '../static/img/renan.png'
+import cintia from '../static/img/cintia.jpg'
 import code from '../static/img/code.png'
+import analytics from '../static/img/analytics.png'
 
 import './About.css'
 
@@ -35,46 +37,44 @@ const About = () => {
 
             <div class="content">
               Renan is our main developer, he likes to go surfing and mountainbiking!
-             
+             <br/>
+             <br/>
             </div>
           </div>
         </div>
       </div>
 
-{/* 
+
       <div class="column is-one-fifth is-variable">
         <div class="content"></div>
 
         <div class="card">
           <div class="card-image">
             <figure class="image">
-              <img src={renan} alt="Placeholder image" />
+              <img src={cintia} alt="Placeholder image" />
             </figure>
           </div>
           <div class="card-content">
             <div class="media">
               <div class="media-left">
                 <figure class="image is-48x48">
-                  <img src={code} alt="role:developer" />
+                  <img src={analytics} alt="role:business intelligence" />
                 </figure>
               </div>
               <div class="media-content">
-                <p class="title is-4">Renan Zanesco Comoli</p>
-                <p class="subtitle is-6">@enedois</p>
+                <p class="title is-4">Cintia Inoue</p>
+                <p class="subtitle is-6">@cintiasat</p>
               </div>
             </div>
 
             <div class="content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-              <a href="#">#css</a> <a href="#">#responsive</a>
-              <br />
-              <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+            Results-driven data professional with 5+ years shaping business performance. Passionate about digital growth, data analytics, and insights.
+            
             </div>
           </div>
         </div>
       </div>
-      */}
+     
 
     </div>
   )
